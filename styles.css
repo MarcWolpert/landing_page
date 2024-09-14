@@ -15,6 +15,7 @@ body {
 #header-description{
     font-size:1.5rem;
     text-align:center;
+    border-right:50px;
 }
 .first-content{
     border-top:50px;
@@ -22,17 +23,23 @@ body {
     flex-direction:row;
     display:flex;
     justify-content: center;
+    flex-basis:250px;
 }
 .first-content-right{
     width:50px;
     height:200px;
+    margin-left:50px;
+    flex-basis:300px;
 }
 .first-content-right-pic{
     height:200px;
+    width:400px;
+    margin-bottom:499px;
 }
 .first-content-left{
     margin-right:50px;
     color:white;
+    flex-basis:300px;
 }
 
 .header .header-links{
@@ -51,6 +58,7 @@ body {
 #information-header{
     font-size:larger;
     font-weight:800;
+    margin-top:50px;
 }
 
 #header-description{
@@ -66,7 +74,8 @@ body {
 
 .second-content .second-content-picture-testim{
     flex-direction:row;
-    display:flex;
+    display:inline-flex;
+    flex-wrap:wrap;
     align-items:stretch;
 }
 
@@ -76,7 +85,14 @@ body {
 }
 
 .picture-notes-combo img{
-    width:300px;    
+    width:300px; 
+    height:225px;
+    margin:30px;  
+    border-color:#3B82F6;
+    outline-style:solid;
+    outline-color:#3B82F6;
+    outline-width:0.25rem;
+    border-radius:5%;
 }
 
 .fourth-content .fourth-subcontent{
@@ -84,11 +100,35 @@ body {
     background-color:#3B82F6;
     color:white;
     padding:30px;
+    border-radius:5%;
 }
 
 .third-content{
     padding:50px;
     border:50px;
-     display:flex;
+    display:flex;
+    flex-direction:column;
+    text-align:left;
     background-color:#E5E7EB;
+}
+
+.footer{
+    flex-grow:1;
+    text-align:center;
+    background-color:#1F2937;
+    color:#e3e5e8;
+}
+
+button{
+    color:#3B82F6;
+    border:none;
+    color: #3b3b3b;;
+    text-align:center;
+    text-decoration:none;
+    display:inline-flex;
+    font-size:1rem;
+}
+
+.picture-notes-combo-package{
+    display:inline-flex;
 }
