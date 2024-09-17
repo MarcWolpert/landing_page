@@ -5,73 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Roboto Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <img id="headerlogo" src="images/headerlogo.svg">
-        <ul class="header-links">
-            <li>
-                <a rel="noopener noreferrer">link one</a>
-            </li>
-            <li>
-                <a rel="noopener noreferrer">link two</a>
-            </li>
-            <li>
-                <a rel="noopener noreferrer">link three</a>
-            </li>
-        </ul>
-    </div>
     <div class="first-content">
-        <div class="first-content-left">
-            <h1 id="header-description">Website description</h1>
-            <p>Something about the website description</p>
-            <button>Sign up</button>
+        <div class="subheader">
+            <p id="headerlogo">Header Logo</p>
+            <ul class="header-links">
+                <li class="header-sublink-items">
+                    <a class="upperlink" rel="noopener noreferrer" href="https://www.google.com/">header link one</a>
+                </li>
+                <li class="header-sublink-items">
+                    <a class="upperlink" rel="noopener noreferrer" href="https://www.google.com/">header link two</a>
+                </li>
+                <li class="header-sublink-items">
+                    <a class="upperlink" rel="noopener noreferrer" href="https://www.google.com/">header link three</a>
+                </li>
+            </ul>
         </div>
-        <div class="first-content-right">
-            <img src="images/image1.jpg" class="first-content-right-pic">
+        <div class="first-content-set">
+            <div class="first-content-left">
+                <h1 id="header-description">This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button class="button">Sign up</button>
+            </div>
+            <div class="first-content-right">
+                <img src="images/image1.jpg" class="first-content-right-pic">
+            </div>
         </div>
     </div>
 
     <div class="second-content">
         <img href="images/websiteIntroImage.png">
 
-        <h2 id="information-header">Something about information</h2>
+        <h2 id="information-header">Some random information.</h2>
 
         <div class="second-content-picture-testim">
             <div class="picture-notes-combo-package">
                 <div class="picture-notes-combo">
                     <img src="images/image1.jpg">
-                    <p>Image 1 subtext</p>
+                    <p>this is some subtext under an illustration or image</p>
                 </div>
 
                 <div class="picture-notes-combo">
                     <img src="images/image2.jpg">
-                    <p>Image 2 subtext</p>
+                    <p>this is some subtext under an illustration or image</p>
                 </div>
             </div>
             <div class="picture-notes-combo-package">
                 <div class="picture-notes-combo">
                     <img src="images/image3.jpg">
-                    <p>Image 3 subtext</p>
+                    <p>this is some subtext under an illustration or image</p>
                 </div>
 
                 <div class="picture-notes-combo">
                     <img src="images/image4.jpg">
-                    <p>Image 4 subtext</p>
+                    <p>this is some subtext under an illustration or image</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="third-content">
-        <p>Testimonial</p>
-        <p>Quoted name</p>
+        <div id="centered-third">
+            <p class="testimonial">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="quoted-name">-Thor, God of Thunder</p>
+        </div>
     </div>
 
     <div class="fourth-content">
         <div class="fourth-subcontent">
-            <p>Call to action</p>
-            <p>Sign up for this</p>
-            <button>Sign up</button>
+            <div class="calltoaction_group">
+                <p id="calltoaction">Call to action! It's time!</p>
+                <p id="signup">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="button signupbutton">Sign up</button>
         </div>
         
     </div>
